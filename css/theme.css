@@ -1,0 +1,226 @@
+*{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 16px;
+    color: #2C3639;
+    box-sizing: initial;
+}
+html, body{
+    margin: 0;
+    height: 100vh;
+    text-align: center;
+}
+h2{
+    font-weight: 900;
+}
+h3{
+    font-size: 1.2em;
+    color: #3F4E4F;
+}
+.header{
+    background-image: url(https://www.humanesociety.org/sites/default/files/styles/1441x612/public/2022-08/hl-yp-cats-579652.jpg);
+    background-repeat: no-repeat;
+    background-position: 50% 60%;
+    background-attachment: scroll;
+    background-size: cover;
+    height: 40vh;
+    margin: 0;
+    padding-top: 60vh;
+}
+h1.heading{
+    color: #ffffff;
+    display: block;
+    font-family: 'TAEBAEKmilkyway';
+    /*font-size: clamp(4em, 6em, 3em);*/
+    font-size: clamp(4rem, 10vw, 6rem);
+    font-weight: normal;
+    text-shadow: 0 0 10px #000;
+}
+.heading-subtext{
+    color: #fff;
+    display: block;
+    font-family: 'TAEBAEKmilkyway';
+    font-size: .6em;
+}
+.section{
+    margin: 0 auto;
+    max-width: 600px;
+    padding: 1em 2.4em;
+}
+.sub-heading{
+    font-family: 'TAEBAEKmilkyway';
+    font-size: 3em;
+    margin-top: 2em;
+}
+.details{
+    margin: 0 auto 8em;
+}
+.details .title{
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+}
+.icon-container{
+    margin-top: 22px;
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+}
+.icon-img{
+    width: 50px;
+    height: 50px;
+    border-radius: 1em;
+    box-shadow: 0 0 10px #ebebeb;
+}
+.fas{
+    font-size: 3em;
+    color: #3F4E4F;
+    opacity: 0.4;
+}
+.fa{
+    font-size: 1.5em;
+    color: #8FBDD3;
+}
+.flex{
+    display: flex;
+}
+.container-row{
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.container-column{
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+    align-items: center;
+}
+.container-item{
+    flex-direction: row;
+}
+.outer{
+    margin: 0px;
+    padding: 20px 0px;
+}
+.detail-button{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: block;
+    border: none;
+    background-color: rgba(143,189,211,.3);
+    margin: 5px;
+    padding: 3px;
+}
+.detail-button:hover{
+    background-color: rgba(143,189,211,.4);
+}
+.font-bold{
+    margin-left: 5px;
+    font-weight: bold;
+}
+.medium{
+    font-size: 1.3rem;
+}
+.underline{
+    text-decoration: underline;
+    text-underline-offset: 8px;
+}
+input[type=text]{
+    width: 300px;
+    margin-bottom: 15px;
+}
+input[type=text], textarea{
+    margin: 5px 10px;
+    outline: none;
+    background: #efefef;
+    border: 0;
+    padding: 10px
+}
+textarea{
+    resize: none;
+    width: 300px;
+    height: 100px;
+}
+.comment-button{
+    font-weight: 400;
+    margin: 12px 0 0 10px;
+    border: 0;
+    color: #fff;
+    font-size: 16px;
+    background: rgba(128,154,111,0.8);
+    padding: 12px 20px 12px 20px;
+    text-decoration: none;
+    outline: none;
+    transition: all .2s ease;
+    border-radius: 2px;
+}
+.comment-button:hover{
+    background: rgba(128,154,111,1.0);
+}
+.dialogbox{
+    margin: 24px;
+}
+.dialogbox .body{
+    position: relative;
+    max-width: 300px;
+    height: auto;
+    margin: auto;
+    padding: 20px 24px;
+    background-color: #efefef;
+}
+.body .message{
+    min-height: 30px;
+    font-size: 14px;
+    line-height: 1.5;
+    text-align: left;
+}
+.body .head{
+    padding-bottom: 14px;
+    vertical-align: bottom;
+    overflow: hidden;
+} 
+.head .name{
+    font-weight: bold;
+    float: left;
+}
+.head .timestamp{
+    float: right;
+    color: rgba(20,20,20,.3);
+}
+.rsvp {
+    margin: 24px 5px;
+}
+.rsvp .dropdown{
+    padding: 4px 10px;
+}
+.rsvp .label{
+    margin-left: 12px;
+}
+.payment{
+    display: inline-block;
+    padding: 2px;
+    margin: 2px;
+    height: 16px;
+    width: 44px;
+    background-color: rgba(128,154,111,0.3);
+    border: none;
+    border-radius: 16px;
+}
+#payment-button img{
+    height: 18px;
+    width: 40px;
+}
+
+@media only screen and (max-width: 600px) {
+    .heading {
+        font-size: 4em;
+    }
+  }
+
+@font-face {
+    font-family: 'TAEBAEKmilkyway';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2302@1.0/TAEBAEKmilkyway.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
